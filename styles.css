@@ -1,0 +1,72 @@
+.AllSubjects {
+        display: grid;
+        grid-template-columns: repeat(1);
+        font-family: sans-serif;
+        border: solid 1px black;
+        border-radius: 10px;
+        background-color: darkorange;
+        text-align: center;
+        margin: 0 auto;
+        width: 480px;
+        
+        
+}
+.header {
+    font-family: sans-serif;
+    text-align: center;
+    width: 400px;
+    margin: 2% auto;
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: darkorange;
+    
+}
+
+.buttons {
+    font-family: sans-serif;
+    background-color: rgb(255, 166, 0); 
+    width: fit-content;
+    margin: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.body{
+    margin: 1%;
+    padding: 1%;
+    
+          
+}
+.dropdowncontent{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdowncontent a {
+    background-color: darkorange;
+    color: black;
+    padding: 12px 16x;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+}
+.show {
+    display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 90%;
+}
+.backbox{
+    background-color: whitesmoke;
+    border: black 1px groove;
+    width: 500px;
+    height: 200px;
+    box-shadow: 1px 1px 3px;
+    margin: 0 auto;
+    border-radius: 8%;
+
+}

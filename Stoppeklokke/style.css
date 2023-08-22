@@ -1,0 +1,47 @@
+.body {
+     padding: 10%;
+}
+.timer {
+    height:20px;
+    width:25px;
+    border: 1px solid black;
+    text-align: center;
+}
+.rundetider {
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 60px;
+height: 20px;
+border: solid 1px black;
+}
+.centerlap {
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto;
+  width: 60px;
+  height: 20px;
+  justify-content: center;
+  background-color: whitesmoke;
+
+}
+.buttons {
+    margin-top: 10px;
+    grid-template-rows: repeat(1);
+    
+    
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto;
+  width: 20px;
+  height: 25px;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+.buttonwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
