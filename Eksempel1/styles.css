@@ -1,0 +1,66 @@
+body {
+    margin-left: 20px;
+    }
+
+.card {
+    width: 500px;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    margin: 10px;
+}    
+
+.Innercard {
+    padding: 10px;
+}
+
+.Header {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 1% 0;
+    border: solid 1px gray;
+}
+
+.green {
+    background-color: #3cba54;
+}
+
+.yellow{
+    background-color: #f4c20d;
+}
+
+.red {
+    background-color: #db3236;
+}
+
+.blue {
+        background-color: #4885ed;
+}
+
+.dark{
+    background-color: #36393f;
+}
+
+.knapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+p {
+    padding-left: 10px;
+}
+.horizontallayout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.vertikallayout {
+    display: flex;
+    flex-direction: column;
+}
+.grid {
+    display: grid;
+   grid-template-columns: auto auto;
+    
+}

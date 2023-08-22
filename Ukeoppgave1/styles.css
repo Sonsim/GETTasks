@@ -1,0 +1,124 @@
+.Layouthele {
+    background-color: white;
+    color: black;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 5% 15% 35% 35% 10%;
+    grid-template-areas: 
+                        'header header header'
+                        'profilephoto main main'
+                        'factbox main main'
+                        'factbox main main'
+                        'footer footer footer';
+    border: solid black 1px;
+}
+.header{
+    border: solid 1px;
+    font-family: sans-serif;
+    font-style: bolder;
+    font-size: 280%;
+    text-align: center;
+}
+.profilephoto{
+    background-color: white;
+    border: solid 1px;
+    
+}
+.main{
+    font-family: sans-serif;
+    font-size: x-large;
+    font: bold;
+    border: solid 1px;
+}
+.factbox{
+    font-family: sans-serif;
+    font: bold;
+    font-size: large;
+    border: solid 1px;
+}
+.footer {
+    border: solid 1px;
+
+}
+.body {
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+div.header{
+    grid-area: header;
+}
+div.main{
+    grid-area: main;
+}
+div.factbox{
+    grid-area: factbox;
+    font-family: sans-serif;
+    font: bold;
+    font-size: large;
+}
+.factlist{
+    font-family: sans-serif;
+    font-size: medium;
+}
+div.profilephoto{
+    grid-area: profilephoto;
+}
+div.footer{
+    grid-area: footer;
+}
+.profilephoto > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+ .tekstm{
+    font-family: sans-serif;
+    font-size: medium;
+    
+}
+.knapp {
+    text-align: center;
+    font-size: 60px;
+}
+
+.darkmode {
+    background-color:black;
+    color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 5% 15% 35% 35% 10%;
+    grid-template-areas: 
+                        'header header header'
+                        'profilephoto main main'
+                        'factbox main main'
+                        'factbox main main'
+                        'footer footer footer';
+    border: solid white 1px;
+
+}
+.dogphotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dogphotos1 {
+    width: 300px;
+    height: 300px;
+}
+.dogphotos2 {
+    width: 300px;
+    height: 300px;
+}
+.dogphotos3 {
+    width: 300px;
+    height: 300px;
+}
+.dogphotos4 {
+    width: 300px;
+    height: 300px;
+}

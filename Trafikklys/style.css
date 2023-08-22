@@ -1,0 +1,43 @@
+ .lightbody{
+    display: grid;
+    grid-template-columns: repeat(1);
+    height: 500px;
+    width: 200px;
+    border: solid 1px black;
+    align-items: center;
+    border-radius: 1%;
+    background-color: black;
+ }
+ .redlight {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    place-self: center;
+    
+ }
+ .yellowlight {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    place-self: center;
+
+ }
+ .greenlight {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    place-self: center;
+
+ }
+ .red {
+    background-color: red;
+ }
+ .yellow {
+    background-color: rgb(255, 153, 0);
+ }
+ .green {
+    background-color: green;
+ }

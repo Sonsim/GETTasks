@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML INNFØRING</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div>
+    <button onclick="none()">Ingen Layout</button>
+    <button onclick="vertical()">Vertikal Layout</button>
+    <button onclick="horizontal()">Horisontal Layout</button>
+    <button onclick="grid()">Grid Layout</button>
+    </div>
+    <h1>Eksempel 1</h1>
+    <div id="allcards">
+            <div class="card">
+        <div class="Header green" onclick="showtools()"> Verktøy</div>
+        <div id="card1"> </div>
+        </div>
+        <div class="card">
+            <div onclick="showhtml()" class="Header blue">HTML</div>
+            <div id="cardhtml">
+            </div>
+        </div>
+        <div class="card">
+            <div onclick="showcss()" class="Header red">CSS </div>
+            <div id="cardcss">   </div>
+        </div>
+        <div class="card">
+            <div onclick="showjavascript()"class="Header yellow">JavaScript</div>
+            <div id="cardjavascript"></div>
+        </div>
+        <div class="card">
+            <div onclick="showhode()"class="Header dark">Hode, kropp og ben</div>
+           <div id="cardhode"></div>
+        </div>
+    </div>
+</body>
+</html>

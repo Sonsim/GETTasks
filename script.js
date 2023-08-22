@@ -10,9 +10,6 @@ function dropdownmenu3(){
 
 
 
-
-
-
 function darkmode(color,textcolor){
     document.getElementById('entirepage').style.background = color;
     document.getElementById('entirepage').style.color = textcolor; 
