@@ -30,12 +30,6 @@
     border-radius: 10px;
     cursor: pointer;
 }
-.body{
-    margin: 1%;
-    padding: 1%;
-    
-          
-}
 .dropdowncontent{
     display: none;
     position: absolute;

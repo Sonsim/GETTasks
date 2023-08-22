@@ -1,3 +1,55 @@
+//model
+
+let FirstDropdown = document.getElementById('dropdown1');
+let SecondDropdown = document.getElementById('dropdown2');
+let LastDropdown = document. getElementById('dropdown3');
+let Showpage = document.getElementById('mainpage');
+
+Updateview();
+//view
+
+function Updateview(){
+        Showpage.innerHTML += /*HTML*/ `
+        <h1>Work in progress!</h1>
+        <div class="backbox" id="box">
+        <h2 class="header">Alle ferdige oppgaver</h2>
+        <div  id="entirepage"  class="AllSubjects">
+        <div>
+          <div class="dropdown">
+            <button class="buttons"  onclick="dropdownmenu1()">Emne 1</button>
+            <div id="dropdown1" class="dropdowncontent">
+              <a href="Eksempel1/">Eksempel 1</a>
+              <a href="Ukeoppgave1/">Ukeoppgave 1</a>
+              <a href="Stoppeklokke/">Stoppeklokke</a>
+              <a href="Trafikklys/">Trafikklys</a>
+              </div>
+          </div>
+          <div class="dropdown">
+          <div id="Subject2"><button class="buttons"  onclick="dropdownmenu2()">Emne 2</button> </div>
+            <div id="dropdown2" class="dropdowncontent">
+              <a href="">test</a>
+              <a href="">test</a>
+              <a href="">test</a>
+              <a href="">test</a>
+              </div>
+          </div>
+          <div class="dropdown">
+            <div id="Subject2"><button class="buttons"  onclick="dropdownmenu3()">Emne 3</button> </div>
+              <div id="dropdown3" class="dropdowncontent">
+                <a href="">test</a>
+                <a href="">test</a>
+                <a href="">test</a>
+                <a href="">test</a>
+                </div>
+          </div>
+        </div>
+        </div>
+        </div>`;
+
+}
+
+//controller
+
 function dropdownmenu1(){
         document.getElementById("dropdown1").classList.toggle("show");
 }
@@ -6,12 +58,4 @@ function dropdownmenu2(){
 }
 function dropdownmenu3(){
     document.getElementById("dropdown3").classList.toggle("show");
-}
-
-
-
-function darkmode(color,textcolor){
-    document.getElementById('entirepage').style.background = color;
-    document.getElementById('entirepage').style.color = textcolor; 
-
 }
