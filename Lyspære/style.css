@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: solid 1px black;
+    background-color: rgba(109, 107, 107, 0.747);
+
+}
+.lightbulb {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: flex;
+    margin: auto auto;
+    background-color: white;
+}
+.LightOn {
+    background-color: rgba(247, 210, 0, 0.973);
+}
+.LightOff {
+    background-color: whitesmoke;
+}
