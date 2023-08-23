@@ -4,8 +4,8 @@ let FirstDropdown = document.getElementById('dropdown1');
 let SecondDropdown = document.getElementById('dropdown2');
 let LastDropdown = document. getElementById('dropdown3');
 let Showpage = document.getElementById('mainpage');
-
 Updateview();
+
 //view
 
 function Updateview(){
@@ -21,7 +21,8 @@ function Updateview(){
               <a href="Eksempel1/">Eksempel 1</a>
               <a href="Ukeoppgave1/">Ukeoppgave 1</a>
               <a href="Stoppeklokke/">Stoppeklokke</a>
-              <a href="Trafikklys/">Trafikklys</a>
+              <a href="Trafikklys/">Trafikklys</a> 
+              <a href="https://fshnchpz.github.io/Teamoppgave1/">Teamoppgave 1</a> 
               </div>
           </div>
           <div class="dropdown">

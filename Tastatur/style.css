@@ -1,0 +1,42 @@
+.mainkeyboard{
+    width: 800px;
+    height: 270px;
+    border: solid 1px black;
+    margin: 5% auto;
+}
+.screen {
+    width: 700px;
+    height: 150px;
+    border: solid 1px black;
+    margin: 0 auto; 
+}
+.buttonline1 {
+    width: 50px;
+    height: 20px;
+    margin: 0.5% auto;
+
+}
+.buttonsline2  {
+    height: 20px;
+    width: 50px;
+    display: flex;
+    margin: 0.5% 35%;
+}
+.buttonsline3  {
+    height: 20px;
+    width: 50px;
+    display: flex;
+    margin: 0.5% 35%;
+}
+.buttonsline4  {
+    height: 20px;
+    width: 50px;
+    display: flex;
+    margin: 0.5% 35%;
+}
+.spacebar {
+    height: 20px;
+    width: 100px;
+    display: flex;
+    margin: 0 auto;
+}
