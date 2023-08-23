@@ -1,6 +1,8 @@
 //model
 let entirekeyboard = document.getElementById('Keyboard')
 let input = document.getElementById('output')
+
+
 Updateview();
 
 //view
@@ -9,57 +11,58 @@ function Updateview(){
     <div class="mainkeyboard">
     <div class="screen" id="output"> </div>
     <div class="buttonline1">
-    <button>Reset</button>
+    <button onclick="resetscreen()">Reset</button>
     </div>
     <div class="buttonsline2">
-    <button>Q</button>
-    <button>W</button>
-    <button>E</button>
-    <button>R</button>
-    <button>T</button>
-    <button>Y</button>
-    <button>U</button>
-    <button>I</button>
-    <button>O</button>
-    <button>P</button>
-    <button>Å</button> 
+    <button onclick="chooseLetter(this)">Q</button>
+    <button onclick="chooseLetter(this)">W</button>
+    <button onclick="chooseLetter(this)">E</button>
+    <button onclick="chooseLetter(this)">R</button>
+    <button onclick="chooseLetter(this)">T</button>
+    <button onclick="chooseLetter(this)">Y</button>
+    <button onclick="chooseLetter(this)">U</button>
+    <button onclick="chooseLetter(this)">I</button>
+    <button onclick="chooseLetter(this)">O</button>
+    <button onclick="chooseLetter(this)">P</button>
+    <button onclick="chooseLetter(this)">Å</button> 
     </div>
     <div class="buttonsline3">
-    <button>A</button>
-    <button>S</button>
-    <button>D</button>
-    <button>F</button>
-    <button>G</button>
-    <button>H</button>
-    <button>J</button>
-    <button>K</button>
-    <button>L</button>
-    <button>Ø</button>
-    <button>Æ</button>
+    <button onclick="chooseLetter(this)">A</button>
+    <button onclick="chooseLetter(this)">S</button>
+    <button onclick="chooseLetter(this)">D</button>
+    <button onclick="chooseLetter(this)">F</button>
+    <button onclick="chooseLetter(this)">G</button>
+    <button onclick="chooseLetter(this)">H</button>
+    <button onclick="chooseLetter(this)">J</button>
+    <button onclick="chooseLetter(this)">K</button>
+    <button onclick="chooseLetter(this)">L</button>
+    <button onclick="chooseLetter(this)">Ø</button>
+    <button onclick="chooseLetter(this)">Æ</button>
     </div>
     <div class="buttonsline4">
-    <button>Z</button>
-    <button>X</button>
-    <button>C</button>
-    <button>V</button>
-    <button>B</button>
-    <button>N</button>
-    <button>M</button>
-    <button>,</button>
-    <button>.</button>
-    <button>-</button>
+    <button onclick="chooseLetter(this)">Z</button>
+    <button onclick="chooseLetter(this)">X</button>
+    <button onclick="chooseLetter(this)">C</button>
+    <button onclick="chooseLetter(this)">V</button>
+    <button onclick="chooseLetter(this)">B</button>
+    <button onclick="chooseLetter(this)">N</button>
+    <button onclick="chooseLetter(this)">M</button>
+    <button onclick="chooseLetter(this)">,</button>
+    <button onclick="chooseLetter(this)">.</button>
+    <button onclick="chooseLetter(this)">-</button>
     </div>
     <div class="spacebar">
-    <button>SPACE</button>
+    <button class="spacebar" onclick="chooseLetter(this)"> </button>
     </div>
     </div>`
 
 }
 
 //controller
-function chooseLetter() {
-    output.innerHTML += /*HTML*/ `
-        
-    `
+function chooseLetter(htmlElement) {
+    output.innerHTML += htmlElement.innerHTML;
 
+}
+function resetscreen() {
+    output.innerHTML = /*HTML*/ ``
 }

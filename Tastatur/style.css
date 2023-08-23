@@ -1,14 +1,16 @@
 .mainkeyboard{
     width: 800px;
-    height: 270px;
+    height: 280px;
     border: solid 1px black;
     margin: 5% auto;
+    background-color: rgb(182, 178, 178);
 }
 .screen {
     width: 700px;
     height: 150px;
     border: solid 1px black;
     margin: 0 auto; 
+    background-color: white;
 }
 .buttonline1 {
     width: 50px;
@@ -32,11 +34,11 @@
     height: 20px;
     width: 50px;
     display: flex;
-    margin: 0.5% 35%;
+    margin: 0 38%;
 }
 .spacebar {
     height: 20px;
     width: 100px;
     display: flex;
-    margin: 0 auto;
+    margin: 1% auto;
 }
