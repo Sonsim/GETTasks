@@ -1,0 +1,40 @@
+.body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.main {
+    border: solid 1px black;
+    border-radius: 1%;
+    width: 600px;
+    height: 500px;
+    font-family: sans-serif;
+    padding: 1%;
+    
+}
+.points {
+    display: flex;
+    height: 20px;
+    width: 100px;
+    border: outset 3px black;
+    background-color: whitesmoke;
+    padding:1%;
+}
+.image {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    padding: 1%;
+    justify-content: center;
+}
+.randomnumber {
+    display: flex;
+    height: 20px;
+    width: 100px;
+    border: outset 1px black;
+    padding: 1%;
+    justify-content: center;
+    margin: 0 auto;
+}
