@@ -2,14 +2,14 @@
 
 let FirstDropdown = document.getElementById('dropdown1');
 let SecondDropdown = document.getElementById('dropdown2');
-let LastDropdown = document. getElementById('dropdown3');
+let LastDropdown = document.getElementById('dropdown3');
 let Showpage = document.getElementById('mainpage');
 Updateview();
 
 //view
 
-function Updateview(){
-        Showpage.innerHTML += /*HTML*/ `
+function Updateview() {
+  Showpage.innerHTML += /*HTML*/ `
         <h1 class="header">Work in progress!</h1>
         <div class="backbox" id="box">
         <h2 class="header">Alle ferdige oppgaver</h2>
@@ -48,18 +48,21 @@ function Updateview(){
           </div>
         </div>
         </div>
+        </div> <br>
+        <div class="img">
+        <img src="Get.png">
         </div>`;
 
 }
 
 //controller
 
-function dropdownmenu1(){
-        document.getElementById("dropdown1").classList.toggle("show");
+function dropdownmenu1() {
+  document.getElementById("dropdown1").classList.toggle("show");
 }
-function dropdownmenu2(){
-    document.getElementById("dropdown2").classList.toggle("show");
+function dropdownmenu2() {
+  document.getElementById("dropdown2").classList.toggle("show");
 }
-function dropdownmenu3(){
-    document.getElementById("dropdown3").classList.toggle("show");
+function dropdownmenu3() {
+  document.getElementById("dropdown3").classList.toggle("show");
 }
