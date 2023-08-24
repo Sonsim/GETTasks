@@ -55,7 +55,7 @@
     height: 90%;
 }
 .backbox{
-    background-color: whitesmoke;
+    background-color: lightgrey;
     border: black 1px groove;
     width: 500px;
     height: 200px;
@@ -63,4 +63,7 @@
     margin: 0 auto;
     border-radius: 8%;
 
+}
+.mainpage {
+    background-color:rgb(247, 190, 4);
 }

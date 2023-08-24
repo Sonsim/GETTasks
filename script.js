@@ -10,7 +10,7 @@ Updateview();
 
 function Updateview(){
         Showpage.innerHTML += /*HTML*/ `
-        <h1>Work in progress!</h1>
+        <h1 class="header">Work in progress!</h1>
         <div class="backbox" id="box">
         <h2 class="header">Alle ferdige oppgaver</h2>
         <div  id="entirepage"  class="AllSubjects">
