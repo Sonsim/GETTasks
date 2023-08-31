@@ -27,6 +27,7 @@ function Updateview() {
               <a href="Krokodillespill/">Krokodillespill</a> 
               <a href="Magic8Ball/">Magic 8 Ball</a> 
               <a href="https://fshnchpz.github.io/Teamoppgave1/">Teamoppgave 1</a> 
+              <a href="Teamoppgave2/">Teamoppgave 2</a> 
               </div>
           </div>
           <div class="dropdown">
@@ -49,7 +50,7 @@ function Updateview() {
           </div>
         </div>
         </div>
-        </div> <br>
+        </div> <br><br> <br> 
         <div class="img">
         <img src="Get.png">
         </div>`;

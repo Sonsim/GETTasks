@@ -2,7 +2,6 @@
         display: grid;
         grid-template-columns: repeat(1);
         font-family: sans-serif;
-        border: solid 1px black;
         border-radius: 10px;
         background-color: darkorange;
         text-align: center;
@@ -16,7 +15,6 @@
     text-align: center;
     width: 400px;
     margin: 2% auto;
-    border: solid black 1px;
     border-radius: 10px;
     background-color: darkorange;
     
@@ -25,7 +23,8 @@
 .buttons {
     font-family: sans-serif;
     background-color: rgb(255, 166, 0); 
-    width: fit-content;
+    width: 100px;
+    height: 30px;
     margin: 2%;
     border-radius: 10px;
     cursor: pointer;
@@ -60,7 +59,7 @@
     background-color: whitesmoke;
     width: 500px;
     height: 200px;
-    box-shadow: 2px 2px 0px 11px rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 2px 44px -6px rgba(0,0,0,0.69);
     border: hidden 10px outset;
     margin: 0 auto;
     border-radius: 20px;
