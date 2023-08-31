@@ -6,12 +6,12 @@
 
 
 .main {
-    border: solid 1px black;
     border-radius: 1%;
     width: 600px;
     height: 500px;
     font-family: sans-serif;
     padding: 1%;
+    background-color: #F3D932;
     
 }
 .points {
@@ -21,6 +21,7 @@
     border: outset 3px black;
     background-color: whitesmoke;
     padding:1%;
+    background-color: #F3D932;
 }
 .image {
     display: flex;
@@ -37,4 +38,5 @@
     padding: 1%;
     justify-content: center;
     margin: 0 auto;
+    background-color: #F3D932;
 }
