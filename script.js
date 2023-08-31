@@ -36,7 +36,6 @@ function Updateview() {
               <a href="">test</a>
               <a href="">test</a>
               <a href="">test</a>
-              <a href="">test</a>
               </div>
           </div>
           <div class="dropdown">
