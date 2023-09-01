@@ -1,0 +1,38 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+
+}
+.backboard {
+    height: 800px;
+    width: 800px;
+    background-color: #F3D932;
+    border-radius: 10%;
+    box-shadow: 0px 2px 44px -6px rgba(0,0,0,0.69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.soundplayer {
+    width: 400px;
+    height: 100px;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allbuttons{
+    display: flex;
+    flex-direction: column;
+}
+.button {
+   background-color: black;
+   color: #F3D932;
+   height: 40px;
+   width: 300px; 
+   margin: 5%;
+   font-family: Arial, sans-serif;
+}

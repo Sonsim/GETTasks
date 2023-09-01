@@ -26,6 +26,5 @@ function AnswerToUser() {
     let RandomAnswer = FinalAnswers[Math.floor(Math.random() * FinalAnswers.length)];
     GlobalAnswer = RandomAnswer;
     UpdateView();
- // Legg til While Loop så man ikke kan få samme svar 2 ganger   
       
 }

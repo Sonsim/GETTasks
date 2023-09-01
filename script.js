@@ -26,6 +26,7 @@ function Updateview() {
               <a href="Lyspære/">Lyspære</a> 
               <a href="Krokodillespill/">Krokodillespill</a> 
               <a href="Magic8Ball/">Magic 8 Ball</a> 
+              <a href="Soundboard/">Soundboard</a> 
               <a href="https://fshnchpz.github.io/Teamoppgave1/">Teamoppgave 1</a> 
               <a href="Teamoppgave2/">Teamoppgave 2</a> 
               </div>

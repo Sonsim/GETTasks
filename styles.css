@@ -22,7 +22,8 @@
 
 .buttons {
     font-family: sans-serif;
-    background-color:#F3D932; 
+    background-color: black;
+    color: #F3D932; 
     width: 100px;
     height: 30px;
     margin: 2%;
@@ -39,8 +40,8 @@
     z-index: 1;
 }
 .dropdowncontent a {
-    background-color:  #F3D932;
-    color: black;
+    background-color:  black;
+    color:  #F3D932;
     padding: 12px 16x;
     text-decoration: none;
     display: block;
