@@ -28,7 +28,8 @@
 }
 .buttons {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: black;
+    color: #F3D932;
     border-radius: 15%;
     cursor: pointer;
     

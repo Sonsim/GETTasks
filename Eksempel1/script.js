@@ -95,17 +95,17 @@ function showhode() {
     document.getElementById(`cardhode`).innerHTML = /*HTML*/`
     <div class="Innercard knapp" id="head">
     <button onclick="showhead4()">◀</button>
-    <img src="IMG/head1.png">
+    <img src="head1.png">
     <button onclick="showhead2()">▶</button>
 </div>
 <div class="Innercard knapp" id="body">
     <button onclick="showbody4()">◀</button>
-    <img src="IMG/body1.png">
+    <img src="body1.png">
     <button onclick="showbody2()">▶</button>
 </div>
 <div class="Innercard knapp" id="legs">
     <button onclick="showlegs4()">◀</button>
-    <img src="IMG/legs1.png">
+    <img src="legs1.png">
     <button onclick="showlegs2()">▶</button>
 </div>`;
 }
@@ -122,7 +122,7 @@ function showhead1(){
         document.getElementById('head').innerHTML = /*HTML*/`  
         <button onclick="showhead4()">◀</button>
         <div>
-        <img src="IMG/head1.png">
+        <img src="head1.png">
         </div>
         <button onclick="showhead2()">▶</button>`;
 }
@@ -130,7 +130,7 @@ function showhead2(){
          document.getElementById('head').innerHTML = /*HTML*/`  
         <button onclick="showhead1()">◀</button>
         <div>
-        <img src="IMG/head2.png">
+        <img src="head2.png">
         </div>
         <button onclick="showhead3()">▶</button>`;
 }
@@ -138,7 +138,7 @@ function showhead3(){
         document.getElementById('head').innerHTML = /*HTML*/`  
         <button onclick="showhead2()">◀</button>
         <div>
-        <img src="IMG/head3.png">
+        <img src="head3.png">
         </div>
         <button onclick="showhead4()">▶</button>`;
 }
@@ -146,7 +146,7 @@ function showhead4(){
         document.getElementById('head').innerHTML = /*HTML*/`  
         <button onclick="showhead3()">◀</button>
         <div>
-        <img src="IMG/head4.png">
+        <img src="head4.png">
         </div>   
         <button onclick="showhead1()">▶</button>`;
 }
@@ -155,7 +155,7 @@ function showbody1(){
         document.getElementById('body').innerHTML = /*HTML*/`
         <button onclick="showbody4()">◀</button>
         <div class=>
-        <img src="IMG/body1.png">
+        <img src="body1.png">
         </div>
         <button onclick="showbody2()">▶</button>`;
 }
@@ -164,7 +164,7 @@ function showbody2(){
     document.getElementById('body').innerHTML = /*HTML*/`
     <button onclick="showbody1()">◀</button>
     <div>
-    <img src="IMG/body2.png">
+    <img src="body2.png">
     </div>
     <button onclick="showbody3()">▶</button>`;
 }
@@ -172,7 +172,7 @@ function showbody3(){
     document.getElementById('body').innerHTML = /*HTML*/`
     <button onclick="showbody2()">◀</button>
     <div>
-    <img src="IMG/body3.png">
+    <img src="body3.png">
     </div>
     <button onclick="showbody4()">▶</button>`;
 }
@@ -180,7 +180,7 @@ function showbody4(){
     document.getElementById('body').innerHTML = /*HTML*/`
     <button onclick="showbody3()">◀</button>
     <div>
-    <img src="IMG/body4.png">
+    <img src="body4.png">
     </div>
     <button onclick="showbody1()">▶</button>`;
 }
@@ -188,7 +188,7 @@ function showlegs1(){
     document.getElementById('legs').innerHTML = /*HTML*/`
     <button onclick="showlegs4()">◀</button>
     <div>
-    <img src="IMG/legs1.png">
+    <img src="legs1.png">
     </div>
     <button onclick="showlegs2()">▶</button>`;
 }
@@ -196,7 +196,7 @@ function showlegs2(){
     document.getElementById('legs').innerHTML = /*HTML*/`
     <button onclick="showlegs1()">◀</button>
     <div>
-    <img src="IMG/legs2.png">
+    <img src="legs2.png">
     </div>
     <button onclick="showlegs3()">▶</button>`;
 }
@@ -204,7 +204,7 @@ function showlegs3(){
     document.getElementById('legs').innerHTML = /*HTML*/`
     <button onclick="showlegs2()">◀</button>
     <div>
-    <img src="IMG/legs3.png">
+    <img src="legs3.png">
     </div>
     <button onclick="showlegs4()">▶</button>`;
 }
@@ -212,7 +212,7 @@ function showlegs4(){
     document.getElementById('legs').innerHTML = /*HTML*/`
     <button onclick="showlegs3()">◀</button>
     <div>
-    <img src="IMG/legs4.png">
+    <img src="legs4.png">
     </div>
     <button onclick="showlegs1()">▶</button>`;
 }

@@ -1,11 +1,14 @@
 .body {
-     padding: 10%;
+     margin: 10%;
 }
 .timer {
     height:20px;
     width:25px;
+    margin: 2%;
     border: 1px solid black;
     text-align: center;
+    background-color: black;
+    color: #F3D932;
 }
 .rundetider {
 display: flex;
@@ -22,26 +25,44 @@ border: solid 1px black;
   width: 60px;
   height: 20px;
   justify-content: center;
-  background-color: whitesmoke;
+  background-color: black;
+  color: #F3D932;
 
 }
 .buttons {
     margin-top: 10px;
     grid-template-rows: repeat(1);
-    
+    background-color: black;
+    color: #F3D932;   
     
 }
 .wrapper {
   display: flex;
   flex-direction: row;
   margin: 30px auto;
-  width: 20px;
-  height: 25px;
+  width: 100px;
+  height: 100px;
   justify-content: center;
-  background-color: whitesmoke;
+  background-color: #F3D932;
 }
 .buttonwrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.backboard {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3D932;
+  border-radius: 10%;
+  box-shadow: 0px 2px 44px -6px rgba(0,0,0,0.69);
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

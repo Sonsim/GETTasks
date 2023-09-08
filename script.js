@@ -27,6 +27,9 @@ function Updateview() {
               <a href="Krokodillespill/">Krokodillespill</a> 
               <a href="Magic8Ball/">Magic 8 Ball</a> 
               <a href="Soundboard/">Soundboard</a> 
+              <a href="Handleliste/">Handleliste</a> 
+              <a href="Morsekode/">Morsekode</a> 
+              <a href="GuessTheNumber">Guess the number</a> 
               <a href="https://fshnchpz.github.io/Teamoppgave1/">Teamoppgave 1</a> 
               <a href="Teamoppgave2/">Teamoppgave 2</a> 
               </div>
@@ -53,7 +56,8 @@ function Updateview() {
         </div> <br><br> <br> 
         <div class="img">
         <img src="Get.png">
-        </div>`;
+        </div>
+        `;
 
 }
 

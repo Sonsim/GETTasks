@@ -22,8 +22,7 @@ function Updateview() {
                 <button class="button" onclick="Playsound('Duermitthjerte.mp3')">Du er mitt hjerte/1-0 scoring mot søpla</button>
             </div>
         </div>
-    
-    `
+        `
 }
 
 

@@ -1,0 +1,32 @@
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    background-color: #F3D932;
+    color: black;
+    border-radius: 5%;
+    box-shadow: -1px 1px 57px 1px rgba(0,0,0,0.51)
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputfield {
+    background-color: #F3D932;
+    color: black;
+}
+.buttons{
+    background-color: black;
+    color: #F3D932;
+}

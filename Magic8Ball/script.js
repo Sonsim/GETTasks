@@ -5,6 +5,7 @@ let GlobalAnswer = "";
 
 
 
+
 // View
 function UpdateView() {
     app.innerHTML = /*HTML*/ `
@@ -25,6 +26,7 @@ function UpdateView() {
 function AnswerToUser() {
     let RandomAnswer = FinalAnswers[Math.floor(Math.random() * FinalAnswers.length)];
     GlobalAnswer = RandomAnswer;
+    
     UpdateView();
       
 }

@@ -1,17 +1,19 @@
 .body {
     display: flex;
     justify-content: center;
+    margin: 3%;
     
 }
 
 
 .main {
-    border-radius: 1%;
+    border-radius: 5%;
     width: 600px;
     height: 500px;
     font-family: sans-serif;
     padding: 1%;
     background-color: #F3D932;
+    box-shadow: 0px 2px 44px -6px rgba(0,0,0,0.69);
     
 }
 .points {
@@ -19,9 +21,9 @@
     height: 20px;
     width: 100px;
     border: outset 3px black;
-    background-color: whitesmoke;
     padding:1%;
-    background-color: #F3D932;
+    background-color: black;
+    color: #F3D932;
 }
 .image {
     display: flex;
@@ -38,5 +40,6 @@
     padding: 1%;
     justify-content: center;
     margin: 0 auto;
-    background-color: #F3D932;
+    background-color: black;
+    color: #F3D932;
 }
