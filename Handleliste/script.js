@@ -18,6 +18,8 @@ function UpdateView() {
                             ${PlayerTypes[i]} 
                             <input type=checkbox>
                             <button class="buttons" onclick="Deleteplayer(${i})">Slett</button> 
+                            <input type="text" class="inputfield" placeholder="Endre"
+                            onchange="Changeplayer()" oninput= "newplayer = this.value"; > 
                     </li>
                     
                 </ul>`
@@ -25,7 +27,7 @@ function UpdateView() {
         }
         page.innerHTML += /*HTML*/ `
             <div>
-                <input placeholder="Skriv spille her" onchange="AddItem()" 
+                <input placeholder="Skriv spiller her" onchange="AddItem()" 
                 oninput="UserInput = this.value" 
                 class="inputfield" type="text"> 
             </div>`
@@ -41,4 +43,8 @@ function UpdateView() {
  function Deleteplayer(index) {
         PlayerTypes.splice(index, 1);
         UpdateView();
+ }
+ function Changeplayer(index) {
+    PlayerTypes[index] = newplayer;
+    UpdateView();
  }

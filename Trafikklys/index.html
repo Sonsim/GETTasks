@@ -12,9 +12,13 @@
         <div class="yellowlight" id="middlelight"></div>
         <div class="greenlight" id="lastlight"></div>
     </div>
-    <button onclick="activatelight1()">Rødt lys</button>
-    <button onclick="activatelight2()">Gult lys</button>
-    <button onclick="activatelight3()">Grønt lys</button>
+    <button onclick="activatelight('toplight', 'red', 'middlelight','lastlight','yellow', 'green')">
+        Rødt lys</button>
+    <button onclick="activatelight('middlelight', 'yellow', 'toplight','middlelight','red','green')">
+        Gult lys</button>
+    <button onclick="activatelight('lastlight', 'green', 'toplight', 'middlelight', 'red', 'yellow')">
+        Grønt lys</button>
+    <button onclick="AutomaticLight()">Automatisk lys</button>
 </body>
 <script src="script.js"></script>
 </html>

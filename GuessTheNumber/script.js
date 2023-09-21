@@ -29,6 +29,7 @@ function CheckAnswer() {
     if (UserAnswer == Randomnumber) {
         document.getElementById('Feedbackfield').innerHTML = /*HTML*/ `<img src="congratulation.png">`;
     }
+    document.getElementById('userinput').value = '';
 }
 function Restart () {
     location.reload();

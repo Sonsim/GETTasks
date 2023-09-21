@@ -29,9 +29,12 @@ function Updateview() {
               <a href="Soundboard/">Soundboard</a> 
               <a href="Handleliste/">Handleliste</a> 
               <a href="Morsekode/">Morsekode</a> 
-              <a href="GuessTheNumber">Guess the number</a> 
+              <a href="GuessTheNumber/">Guess the number</a> 
+              <a href="Objekter/">Objekter</a> 
+              <a href="Weather/">Værmelding</a> 
               <a href="https://fshnchpz.github.io/Teamoppgave1/">Teamoppgave 1</a> 
               <a href="Teamoppgave2/">Teamoppgave 2</a> 
+              <a href="https://sonsim.github.io/Mujaffa/">Teamoppgave 3</a> 
               </div>
           </div>
           <div class="dropdown">
