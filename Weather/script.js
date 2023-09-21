@@ -25,7 +25,6 @@ function updateView() {
             <div id="thisday"></div> <br>
             <div id="6hours"></div> <br>
             <div id="nextday"></div><br>
-            <button onclick="getYRdata()">Se været</button> 
         </div>
         
     `
@@ -40,7 +39,6 @@ function getYRdata() {
  axios.get(`https://api.met.no/weatherapi/locationforecast/2.0/complete?lat=${lat}&lon=${lon}`)
  .then( (api_data) => {
         
-    console.log(new Date());
     let today = new Date().setMinutes(0,0,0);
     let tommorow = new Date(today).addHours(24);
     let in6hours = new Date(today).addHours(6)
@@ -82,7 +80,7 @@ function getYRdata() {
     document.getElementById('nextday').innerHTML = /*HTML*/ `
     Tomorrow: ${nextday} and ${weathernextday}
     `
-   
+
  })
 }
 
