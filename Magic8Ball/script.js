@@ -26,11 +26,8 @@ function UpdateView() {
 function AnswerToUser() {
     let RandomAnswer = FinalAnswers[Math.floor(Math.random() * FinalAnswers.length)];
     let Lastanswer = "";
-    GlobalAnswer = RandomAnswer;
-    
-
-
-    
+    GlobalAnswer = RandomAnswer;   
+   
     UpdateView();
       
 }

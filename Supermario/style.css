@@ -1,0 +1,125 @@
+#background {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(img/background.png);
+    background-size:cover;
+    height: 600px;
+    width: auto;
+}
+#selectedChar {
+    height:200px;
+    width: 150px;
+    object-position: 2cm, 3cm;
+}
+
+#bowser {
+    display: block;
+    margin-left: 900px;
+}
+#activePlayer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+
+}
+#playerHealth {
+    border: solid 1px black;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+#bowserHealth {
+    border: solid 1px black;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+#characterSelect {
+    height: 200px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+#sopp {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+.playerHealth {
+    background-color: #3cff00;
+    
+}
+.halfhealth {
+    background: linear-gradient(
+    to right,
+    #3cff00 0%,
+    #3cff00 50%,
+    white 50%,
+    white 100%
+  );
+
+}
+.threequartHealth {
+    background: linear-gradient(
+        to right,
+        #3cff00 0%,
+        #3cff00 75%,
+        white 50%,
+        white 100%
+      );
+}
+.onequarthealth {
+    background: linear-gradient(
+        to right,
+        #3cff00 0%,
+        #3cff00 25%,
+        white 0%,
+        white 100%
+      );
+
+}
+.bowserHalf{
+ 
+    background: linear-gradient(
+        to right,
+        red 0%,
+        red 50%,
+        white 0%,
+        white 100%
+      );
+    
+
+}
+.bowserThree {
+    background: linear-gradient(
+        to right,
+        red 0%,
+        red 75%,
+        white 0%,
+        white 100%
+      );
+}
+.bowserOneQuart {
+    background: linear-gradient(
+        to right,
+        red 0%,
+        red 25%,
+        white 0%,
+        white 100%
+      );
+
+}
+.bowserHealth {
+    background-color: red;
+}
+.bowserDead {
+
+    background-color: white;
+
+}
+.playerDead {
+    background-color: white;
+}

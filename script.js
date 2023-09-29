@@ -32,6 +32,7 @@ function Updateview() {
               <a href="GuessTheNumber/">Guess the number</a> 
               <a href="Objekter/">Objekter</a> 
               <a href="Weather/">Værmelding</a> 
+              <a href="Supermario/">Super Mario</a> 
               <a href="https://fshnchpz.github.io/Teamoppgave1/">Teamoppgave 1</a> 
               <a href="Teamoppgave2/">Teamoppgave 2</a> 
               <a href="https://sonsim.github.io/Mujaffa/">Teamoppgave 3</a> 
